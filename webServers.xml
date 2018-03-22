@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="861e50ad-a096-4df5-aada-4895cdda79bc" name="cyberseniors-staging" url="http://stage.cyberseniors.org">
+        <fileTransfer host="stage.cyberseniors.org" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/stagecybersenior/www/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="c41db59c-0229-4c86-88da-d575d27acc23" name="roderick_james" url="http://sip2-183.nexcess.net">
         <fileTransfer host="sip2-183.nexcess.net" port="21">
           <advancedOptions>
