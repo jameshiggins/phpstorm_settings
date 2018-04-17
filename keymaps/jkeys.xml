@@ -97,6 +97,10 @@
   <action id="Console.Execute" />
   <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.DeleteRows" />
+  <action id="Console.TableResult.EditFilterCriteria">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+    <keyboard-shortcut first-keystroke="ctrl alt 7" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
