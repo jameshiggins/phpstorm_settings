@@ -37,9 +37,7 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
     <keyboard-shortcut first-keystroke="shift alt 1" />
   </action>
-  <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt r" />
-  </action>
+  <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
     <keyboard-shortcut first-keystroke="shift alt 4" />
@@ -273,6 +271,10 @@
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="RerunTests" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="RunJsbtTask">
     <keyboard-shortcut first-keystroke="alt f11" />
     <keyboard-shortcut first-keystroke="alt 3" />
@@ -325,6 +327,14 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl f8" />
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f8" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt b" />
   </action>
   <action id="TypeHierarchy" />
   <action id="Uml.ShowDiff" />
